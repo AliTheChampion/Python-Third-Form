@@ -2,3 +2,10 @@ password = ""
 while password != "kebab":
   password = input('Please enter a password: ')
 print ("correct password accepted")
+
+
+answer = "N"
+while answer != "Y":
+  print("Are we there yet?")
+  answer = str(input("Please respond, y or n: ").upper())
+print("Yay! We are there!!")
